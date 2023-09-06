@@ -606,6 +606,24 @@ body {
     background-size: cover;
     color: var(--colorFuente);
 }
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.buttons input{
+    width: 5em;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid white;
+    color: white;
+}
+.buttons svg{
+    height: 3em;
+}
+
+.lf__footer{
+    text-align: center;
+}
 
 .lf__desktop{
     display: none;
@@ -707,5 +725,11 @@ body {
     }
     .searchBtn{
         display: none;
+    }
+    .lf__btnAboutUs{
+        margin: 0 2em 3em 0;
+    }
+    .__asides-menu-main-body{
+        padding: 0 0 5em 0;
     }
 }
